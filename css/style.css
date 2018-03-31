@@ -1,10 +1,11 @@
 /*
  * font-family: 'Oswald', sans-serif;
- *
+ *font-family: 'Chau Philomene One', sans-serif;
+  font-family: 'Bangers', cursive;
  *
  */
 
-
+/* FONTS */
 
 @font-face {
   font-family: 'avengers';
@@ -16,8 +17,14 @@
   src: url('klingon.TTF') format('truetype');
 }
 
+/* HEADER */
+
 .title {
-  font-family: 'klingon';
+  font-family: 'Bangers', cursive;
+}
+
+.vs {
+  font-family: 'Oswald', sans-serif;
 }
 
 .sub-title {
@@ -25,9 +32,21 @@
 }
 
 .black-widow {
-  width: 70%;
+  width: 50%;
 }
 
 .hawkeye {
-  width: 70%;
+  width: 50%;
+}
+
+.black-widow-quote {
+  font-family: 'Oswald', sans-serif;
+}
+
+.hawkeye-quote {
+  font-family: 'Oswald', sans-serif;
+}
+
+.header {
+  border-bottom: 2px solid black;
 }
