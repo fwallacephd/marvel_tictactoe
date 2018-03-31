@@ -1,0 +1,24 @@
+/*
+ * font-family: 'Oswald', sans-serif;
+ *
+ *
+ */
+
+
+
+@font-face {
+  font-family: 'avengers';
+  src: url('The_Avengers.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'klingon';
+  src: url('klingon.TTF') format('truetype');
+}
+
+h1 {
+  font-family: 'klingon';
+}
+
+
+
