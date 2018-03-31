@@ -96,3 +96,13 @@
 .first-move-direction-buttons {
   font-family: 'Bangers', cursive;
 }
+
+/* PLAY BUTTON */
+.play {
+  font-family: 'Bangers', cursive;
+}
+
+.play-button {
+  font-size: 45px;
+  color: black;
+}
