@@ -16,9 +16,18 @@
   src: url('klingon.TTF') format('truetype');
 }
 
-h1 {
+.title {
   font-family: 'klingon';
 }
 
+.sub-title {
+  font-family: 'Oswald', sans-serif;
+}
 
+.black-widow {
+  width: 70%;
+}
 
+.hawkeye {
+  width: 70%;
+}
