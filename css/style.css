@@ -87,3 +87,12 @@
   color: #463363;
   font-size: 25px;
 }
+/* FIRST MOVE */
+.first-move-directions {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+
+.first-move-direction-buttons {
+  font-family: 'Bangers', cursive;
+}
