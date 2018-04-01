@@ -13,7 +13,7 @@
 
     <!-- Bootstrap, Fonts, Font Awesome, CSS -->
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
     <!--Bootstrap-->
     <!-- Latest compiled and minified CSS -->
@@ -42,11 +42,11 @@
  <div class="row">
   <div class="col-md-3">
    <br>
-   <img class="black-widow img-fluid pull-right" src="images/black_widow.png" alt="Black Widow Icon">
+    <img class="black-widow img-fluid pull-right" src="images/black_widow.png" alt="Black Widow Icon">
  </div>
   <div class="col-md-6 ">
     <br>
-    <h1 class="title text-center">Black Widow <span class="vs">vs</span> Hawkeye</h1>
+    <h1 class="title text-center pull-right">Black Widow <span class="vs">vs</span> Hawkeye</h1>
     <h3 class="sub-title text-center">A Game of Tic Tac Toe</h3>
     <br>
     <h6 class="black-widow-quote text-center">"We're still friends, right?" - Black Widow</h6>
@@ -91,6 +91,106 @@
   <div class="col-md-3"></div>
  </div>
  </div>
+
+
+<!-- PLAY BUTTON -->
+ <div class="row display3">
+  <div class="col-md-3"></div>
+   <div class="col-md-6 play">
+   <br>
+   <div class="play center-block text-center">
+   <button type="button" class="btn btn-outline-dark play-button tex-center">Play!</button>
+   </div>
+   <div class="col-md-3"></div>
+  </div>
+ </div>
+
+ <!-- PLAY DISPLAY -->
+ <div class="play-display-area">
+  <div class="row play-display">
+   <div class="col-md-3"></div>
+   <div class="col-md-6 score">
+     <br>
+     <p class="text-center score-title">Score:</p>
+     <p class="text-center black-widow-name">Black Widow: <span id="score-black-widow">0</span></p>
+     <p class="text-center hawkeye-name">Hawkeye: <span id="score-hawkeye">0</span></p>
+     </div>
+     </div>
+   </div>
+
+<div class="game-board">
+  <div class="row game-board-display">
+   <div class="col-md-4"></div>
+   <div class="col-md-4 game-grid">
+    <br>
+    <table class="table center-block">
+    <tbody>
+      <tr>
+        <td id="pos1" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+        <td id="pos2" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+        <td id="pos3" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+      </tr>
+      <tr>
+        <td id="pos4" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+        <td id="pos5" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+        <td id="pos6" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+      </tr>
+      <tr>
+        <td id="pos7" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+        <td id="pos8" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+        <td id="pos9" class="text-center">
+         <img class="avengers center-block" src="images/avengers_logo.png">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+   </div>
+   <div class="col-md-4"></div>
+  </div>
+</div>
+
+
+<!-- PLAY AGAIN & RESET -->
+ <div class="play-again">
+  <div class="row display4">
+   <div class="col-md-3"></div>
+   <div class="col-md-6 play-again center-block">
+     <br>
+     <div class="setting-buttons center-block text-center">
+     <button type="button" class="btn btn-outline-dark play-again-button text-center">Play Again</button>
+    <button type="button" class="btn btn-outline-dark reset-button text-center">Reset Game</button>
+     </div>
+     </div>
+   </div>
+ </div>
+
+<!-- FOOTER -->
+<div class="row copyright">
+ <br>
+   <div class="col-md-12">
+    <br>
+    <br>
+     <p class="copyright text-center"><strong>Made with an <span class="red">Infinity Stone</span> by Faith H. Wallace, Ph.D., &copy;  2018 • Follow Me <i class="fab fa-twitter"></i> </strong><a href="https://twitter.com/fwallacephd" data-show-count="false">@fwallacephd</a></p>
+   </div>
+
+  <br>
+</div>
 
 
  </div><!-- END LOGO-->

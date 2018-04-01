@@ -96,3 +96,113 @@
 .first-move-direction-buttons {
   font-family: 'Bangers', cursive;
 }
+
+/* PLAY BUTTON */
+.play {
+  font-family: 'Bangers', cursive;
+}
+
+.play-button {
+  font-size: 40px;
+  color: black;
+}
+
+/* SCORE */
+.score-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+
+.black-widow-name {
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  color: #C40A14;
+}
+
+.hawkeye-name {
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  color: #463363;
+}
+
+#score-black-widow, #score-hawkeye {
+  color: black;
+}
+
+/* GAME BOARD */
+
+#pos1, #pos4 {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+
+}
+
+#pos2, #pos5 {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+
+}
+
+#pos3, #pos6 {
+  border-bottom: 2px solid black;
+
+}
+
+#pos7, #pos8 {
+  border-right: 2px solid black;
+
+}
+
+/*
+table {
+  width: 90%;
+}
+td {
+  width: 33.33%;
+  position: relative;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+*/
+
+.avengers {
+  width: 100%;
+}
+
+.black-widow-square {
+  width: 100%;
+}
+
+.setting-buttons {
+
+}
+
+.play-again-button, .reset-button {
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  color: black;
+}
+
+
+/*FOOTER*/
+.copyright {
+  font-family: 'Oswald', sans-serif;
+}
+
+.red {
+  color: #C40A14;
+}
+
+.purple {
+  color: #463363;
+}
