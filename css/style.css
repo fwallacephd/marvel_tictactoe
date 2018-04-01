@@ -134,17 +134,75 @@
 #pos1, #pos4 {
   border-bottom: 2px solid black;
   border-right: 2px solid black;
+
 }
 
 #pos2, #pos5 {
   border-bottom: 2px solid black;
   border-right: 2px solid black;
+
 }
 
 #pos3, #pos6 {
   border-bottom: 2px solid black;
+
 }
 
 #pos7, #pos8 {
   border-right: 2px solid black;
+
+}
+
+/*
+table {
+  width: 90%;
+}
+td {
+  width: 33.33%;
+  position: relative;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+*/
+
+.avengers {
+  width: 100%;
+}
+
+.black-widow-square {
+  width: 100%;
+}
+
+.setting-buttons {
+
+}
+
+.play-again-button, .reset-button {
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  color: black;
+}
+
+
+/*FOOTER*/
+.copyright {
+  font-family: 'Oswald', sans-serif;
+}
+
+.red {
+  color: #C40A14;
+}
+
+.purple {
+  color: #463363;
 }
