@@ -3,7 +3,7 @@ var player1;
 var player2;
 var playerPick;
 var firstMove;
-var state = "blackwidow";
+var state;
 var player1Score;
 var player2Score;
 
@@ -29,11 +29,13 @@ $(".player-hawkeye-button").on("click", function(){
 //Who moves first?
 $(".first-move-black-widow").on("click", function() {
   firstMove = "blackWidow";
+  state = "blackwidow";
   console.log(firstMove);
 });
 
 $(".first-move-hawkeye").on("click", function() {
   firstMove = "hawkeye";
+  state = "hawkeye";
   console.log(firstMove);
 });
 
