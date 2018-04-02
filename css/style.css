@@ -118,7 +118,7 @@
 }
 
 /* SCORE */
-.score-title {
+.score-title, .winner {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
 }
