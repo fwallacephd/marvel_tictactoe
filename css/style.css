@@ -33,13 +33,11 @@
 
 .vs {
   font-family: 'Oswald', sans-serif;
+  font-size: 25px;
 }
 
 .sub-title {
   font-family: 'Oswald', sans-serif;
-}
-.vs {
-  font-size: 25px;
 }
 
 .black-widow {
@@ -97,6 +95,18 @@
   font-family: 'Bangers', cursive;
 }
 
+.first-move-black-widow {
+  font-family: 'Bangers', cursive;
+  color: #C40A14;
+  font-size: 25px;
+}
+
+.first-move-hawkeye {
+  font-family: 'Bangers', cursive;
+  color: #463363;
+  font-size: 25px;
+}
+
 /* PLAY BUTTON */
 .play {
   font-family: 'Bangers', cursive;
@@ -131,24 +141,24 @@
 
 /* GAME BOARD */
 
-#pos1, #pos4 {
+.pos1, .pos4 {
   border-bottom: 2px solid black;
   border-right: 2px solid black;
 
 }
 
-#pos2, #pos5 {
+.pos2, .pos5 {
   border-bottom: 2px solid black;
   border-right: 2px solid black;
 
 }
 
-#pos3, #pos6 {
+.pos3, .pos6 {
   border-bottom: 2px solid black;
 
 }
 
-#pos7, #pos8 {
+.pos7, .pos8 {
   border-right: 2px solid black;
 
 }
