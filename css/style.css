@@ -60,11 +60,13 @@
   border-bottom: 2px solid black;
 }
 
+.heading {
+    border-bottom: 5px solid black;
+}
+
 /* CHOOSE PLAYER */
 
-.player {
-    border-top: 5px solid black;
-}
+
 
 .player-directions{
   font-family: 'Oswald', sans-serif;
