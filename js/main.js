@@ -59,6 +59,7 @@ function reset(){
 function playAgain(winner){
  $(".play-again-button").on("click", function() {
   $("#winner").text("");
+  $(".game-board").show();
   $("#pos1").attr("src", "images/avengers_logo.png");
   pos1 = "";
   $("#pos2").attr("src", "images/avengers_logo.png");
@@ -141,6 +142,12 @@ function findWinner(pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8, pos9) {
   } else if (pos3 === "hawkeye" && pos5 === "hawkeye" && pos7 === "hawkeye") {
    $("#winner").text("Hawkeye Wins!");
    winner = "hawkeye";
+  } else if (pos1 && pos2 && pos3 && pos4 && pos5 && pos6 && pos7 && pos8 && pos9) {
+   $("#winner").text("It's a Draw!");
+   winner = "";
+  }
+  if (winner === "blackwidow" || winner === "hawkeye") {
+  $(".game-board").hide();
   }
   calculateScore(winner);
   winner = "";
