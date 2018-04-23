@@ -142,7 +142,7 @@ function findWinner(pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8, pos9) {
   } else if (pos3 === "hawkeye" && pos5 === "hawkeye" && pos7 === "hawkeye") {
    $("#winner").text("Hawkeye Wins!");
    winner = "hawkeye";
-  } else if (pos1 && pos2 && pos3 && pos4 && pos5 && pos6 && pos7 && pos8 && pos9) {
+  } else if (pos1 && pos2 && pos3 && pos4 && pos5 && pos6 && pos7 && pos8 && pos9 && !winner) {
    $("#winner").text("It's a Draw!");
    winner = "";
   }
@@ -151,7 +151,7 @@ function findWinner(pos1, pos2, pos3, pos4, pos5, pos6, pos7, pos8, pos9) {
   }
   calculateScore(winner);
   winner = "";
-};
+}
 
 
 //Hide the game before settings
